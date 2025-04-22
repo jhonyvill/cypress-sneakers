@@ -55,7 +55,7 @@ describe("Add item to shopping cart.", () => {
       });
   });
 
-  it("should keep item in cart when navigating through the app.", () => {
+  it("[will fail] should keep item in cart when navigating through the app.", () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.addItemToCart();
@@ -67,7 +67,7 @@ describe("Add item to shopping cart.", () => {
     cy.verifyTotalItensInCart(1);
   });
 
-  it("should keep item in cart after page reload.", () => {
+  it("[will fail] should keep item in cart after page reload.", () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.addItemToCart();

@@ -3,7 +3,7 @@ describe("Navigation through the menu.", () => {
     cy.visit(`${Cypress.config("baseUrl")}`);
   });
 
-  it('should display the "Collections" page when clicking the corresponding menu option.', () => {
+  it('[will fail] should display the "Collections" page when clicking the corresponding menu option.', () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.get('a[href="/collections"]').click();
@@ -13,7 +13,7 @@ describe("Navigation through the menu.", () => {
     );
   });
 
-  it('should display the "Men" page when clicking the corresponding menu option.', () => {
+  it('[will fail] should display the "Men" page when clicking the corresponding menu option.', () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.get('a[href="/men"]').click();
@@ -23,7 +23,7 @@ describe("Navigation through the menu.", () => {
     );
   });
 
-  it('should display the "Women" page when clicking the corresponding menu option.', () => {
+  it('[will fail] should display the "Women" page when clicking the corresponding menu option.', () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.get('a[href="/women"]').click();
@@ -33,7 +33,7 @@ describe("Navigation through the menu.", () => {
     );
   });
 
-  it('should display the "About" page when clicking the corresponding menu option.', () => {
+  it('[will fail] should display the "About" page when clicking the corresponding menu option.', () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.get('a[href="/about"]').click();
@@ -43,7 +43,7 @@ describe("Navigation through the menu.", () => {
     );
   });
 
-  it('should display the "Contact" page when clicking the corresponding menu option.', () => {
+  it('[will fail] should display the "Contact" page when clicking the corresponding menu option.', () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.get('a[href="/contact"]').click();

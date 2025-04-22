@@ -3,7 +3,7 @@ describe("View user profile actions.", () => {
     cy.visit(`${Cypress.config("baseUrl")}`);
   });
 
-  it("should display links to log out and view user profile information.", () => {
+  it("[will fail] should display links to log out and view user profile information.", () => {
     cy.log("Esse teste irá falhar. Há um bug proposital aqui.");
 
     cy.get('img[alt="imagem de perfil"]').click();
