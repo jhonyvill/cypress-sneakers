@@ -5,7 +5,8 @@
   "scripts": {
     "cy:open:dev": "CYPRESS_ENV=dev cypress open",
     "cy:open:prod": "CYPRESS_ENV=prod cypress open",
-    "test": "cypress run"
+    "test:dev": "CYPRESS_ENV=dev cypress run",
+    "test:prod": "CYPRESS_ENV=prod cypress run"
   },
   "devDependencies": {
     "cypress": "^14.3.1"
