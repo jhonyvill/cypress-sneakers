@@ -24,3 +24,7 @@ Cypress.Commands.add("verifyTotalItensInCart", (expectedLength) => {
     .find("li")
     .should("have.length", expectedLength);
 });
+
+Cypress.Commands.add("openImagesModal", () => {
+  cy.get('[data-testid="featured-image"]').click();
+});
