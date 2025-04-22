@@ -1,0 +1,13 @@
+{
+  "name": "cypress-sneakers",
+  "author": "Jhony Vill da Silva",
+  "description": "Projeto pessoal para estudo e prática de automação de testes de interface gráfica com Cypress.",
+  "scripts": {
+    "cy:open:dev": "CYPRESS_ENV=dev cypress open",
+    "cy:open:prod": "CYPRESS_ENV=prod cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^14.3.1"
+  }
+}
